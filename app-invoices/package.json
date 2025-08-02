@@ -12,6 +12,9 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "@opentelemetry/auto-instrumentations-node": "^0.62.0",
+    "@opentelemetry/sdk-node": "^0.203.0",
+    "@opentelemetry/sdk-trace-node": "^2.0.1",
     "@tsconfig/node23": "^23.0.2",
     "@types/amqplib": "^0.10.7",
     "@types/node": "^24.1.0",
