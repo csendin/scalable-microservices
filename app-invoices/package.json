@@ -1,0 +1,30 @@
+{
+  "name": "app-invoices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-strip-types --no-warnings src/http/server.ts",
+    "dev": "node --env-file .env --experimental-strip-types --watch --no-warnings src/http/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@tsconfig/node23": "^23.0.2",
+    "@types/amqplib": "^0.10.7",
+    "@types/node": "^24.1.0",
+    "drizzle-kit": "^0.31.4",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.1.0",
+    "amqplib": "^0.10.8",
+    "drizzle-orm": "^0.44.4",
+    "fastify": "^5.4.0",
+    "fastify-type-provider-zod": "^5.0.2",
+    "pg": "^8.16.3",
+    "zod": "^4.0.14"
+  }
+}
